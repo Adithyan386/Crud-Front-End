@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import FormEmp from './FormEmp';
 import TableEmp from './TableEmp';
@@ -9,9 +9,9 @@ function App() {
      <>
 
       <Routes>
-      <Route path='/' element={<TableEmp/>}></Route>
-        <Route path='/formEmp' element={<FormEmp/>}></Route>
-        <Route path='/Table' element={<TableEmp/>}></Route>
+      <Route path='/' element={<TableEmp/>}/>
+        <Route path='/formEmp' element={<FormEmp/>}/>
+        <Route path='/Table' element={<TableEmp/>}/>
       </Routes>
       
       </>
